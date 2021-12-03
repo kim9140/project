@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3cb371">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/emergency" />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="긴급전화"
+                android:textSize="60dp"
+                android:textStyle="bold"
+                android:textColor="#b33c7e"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/Btn112"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="경찰서(112)"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:background="#50C8FF"
+
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/Btn119"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="화재구조구급(119)"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:background="#FF6A89"
+
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/Btn122"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="해양재난신고(122)"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:background="#79FFCE"
+
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/Btn113"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="간첩신고(113)"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:background="#bfff00"
+
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/Btn125"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="밀수신고(125)"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:background="#EE84EA"
+
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/Btn114"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#EBC680"
+            android:text="전화번호 안내 서비스(114)"
+            android:textSize="30dp"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</ScrollView>

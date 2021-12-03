@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="발 스트레칭"
+            android:fontFamily="@font/nanumgothicbold"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="벽에 발 올리고 몸 앞으로 밀기"
+            android:layout_marginLeft="30dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/nanumsquareroundb"
+            android:textColor="@color/black"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="-65dp"
+            android:src="@drawable/foot1" />
+
+        <TextView
+            android:layout_marginTop="-60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 1. 발 끝과 벽을 30cm 간격을 두고 앞으로 \n 선다.\n
+2. 한쪽 발가락과 발바닥을 벽에 붙인다.\n
+3. 반대쪽 발뒤꿈치를 들면서 몸 전체를 벽으로\n 밀착한다.\n
+4. 20초간 유지하고 3회 반복한다.
+"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textFontWeight="500"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="앉아서 발다닥 굴리기"
+            android:layout_marginLeft="30dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/nanumgothicbold"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_marginTop="-60dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/foot2" />
+
+        <TextView
+            android:layout_marginTop="-60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 의자에 앉은 상태에서 발바닥에 골프공이나 빈병을 둔다.\n
+2. 삭짝 압력을 주면서 반복적으로 앞뒤로 \n 굴린다.\n
+3. 앞뒤로 반복한다.
+"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="발가락으로 수건 당기기"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/nanumgothicbold"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="-60dp"
+            android:src="@drawable/foot3" />
+
+        <TextView
+            android:layout_marginTop="-60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:text=" 1. 의자에 허리를 펴고 앉는다.\n
+2. 수건 위에 한쪽 발을 올려 놓는다.\n
+3. 내 몸 쪽 방향으로 발가락으로 수건을 \n 접으면서 당겨준다.\n
+4. 5회 반복을 한 세트로 하여 한번에 3세트를 \n 반복한다."
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_marginTop="20dp"
+            android:id="@+id/foot_youtube"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/foot_playerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="재생"
+            android:textSize="50sp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

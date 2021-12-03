@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="다리 스트레칭"
+            android:fontFamily="@font/nanumgothicbold"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="의자잡고 구부리기"
+            android:layout_marginLeft="30dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/nanumsquareroundb"
+            android:textColor="@color/black"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/leg1" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="의자를 잡고 선 자세에서 엉덩이를 뒤로 빼며 앉는다.
+무릎이 발끝보다 앞으로 나오지\n 않아야 한다. (허벅지 근육 강화)"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textFontWeight="500"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="뒤꿈치 들기"
+            android:layout_marginLeft="30dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/nanumgothicbold"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/leg2" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="의자를 잡고 선 자세에서 발뒤꿈치를 최대한 위로 든다. (발목, 종아리 근육 강화)"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="고관절 펴기"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/nanumgothicbold"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/leg3" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:text="의자를 잡고 서서 한쪽 다리를 뒤로 뻗어\n 올린다. 이 때
+상체가 앞으로 숙여지지\n않아야 한다. (엉덩이 근육 강화)"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="다리 옆으로 올리기"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/nanumgothicbold"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/leg4" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="의자를 잡고 서서 한쪽 다리를 옆으로 뻗어\n올린다.
+이때 상체가 옆으로 기울어지지 않아야 한다. (허벅지 엉덩이 근육강화) "
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textFontWeight="500"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_marginTop="20dp"
+            android:id="@+id/leg_youtube"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/leg_playerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="재생"
+            android:textSize="50sp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

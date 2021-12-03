@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목 스트레칭"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목 스트레칭 운동 방법"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_marginTop="-40dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/neck1" />
+
+        <TextView
+            android:layout_marginTop="-40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="턱 끝을 살짝 뒤로 당기면서 손가락으로\n가볍게 얹어 지그시 밀어준다."
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/neck2" />
+
+        <TextView
+            android:layout_marginTop="-40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="등과 허리를 곧게 펴고 양손으로 머리 뒤를 잡아 천천히 머리를 앞으로 당긴다."
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/neck3" />
+
+        <TextView
+            android:layout_marginTop="-40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="엄지손가락으로 턱 끝을 받친다.\n천천히 위쪽으로 밀어 목
+앞쪽 근육의 \n이완을 느끼며 멈춘다."
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/neck4" />
+
+        <TextView
+            android:layout_marginTop="-40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="한 손으로 반대쪽 머리를 잡고 천천히 당긴다. 이 때 반대쪽
+손은 등 뒤에서 고정한다.\n(교대로 실시)"
+            android:layout_marginLeft="18dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/neck5" />
+        <TextView
+            android:layout_marginTop="-40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="고개를 45도 정도 옆으로 돌리고 한 손으로 \n머리 뒤쪽을 잡아 앞으로 숙인다.\n반대쪽 손은 등 뒤에서 고정한다.\n(교대로 실시)"
+            android:layout_marginLeft="18dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_marginTop="-100dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/neck6" />
+
+        <TextView
+            android:layout_marginTop="-140dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="한 손을 머리 앞,뒤, 양 옆면에 대고 지그시\n민다. 이 때 손이 미는 대로 밀리지 않도록\n목 근육의 힘드로 지지한다.\n목 근육의 운동하고자 하는 방향을\n반대쪽에서 손으로 힘주어 버틴다."
+            android:layout_marginLeft="18dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_marginTop="30dp"
+            android:id="@+id/neck_youtube"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/neck_playerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="재생"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

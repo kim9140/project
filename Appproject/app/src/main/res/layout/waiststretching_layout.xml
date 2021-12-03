@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="허리 스트레칭"
+            android:fontFamily="@font/nanumgothicbold"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="허리 스트레칭 운동 방법"
+            android:layout_marginLeft="30dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/nanumsquareroundb"
+            android:textColor="@color/black"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/waist1" />
+
+        <TextView
+
+            android:layout_marginTop="-20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="한쪽 다리를 들고 무릎을 구부려 양손으로 잡고 가슴쪽으로 당긴다. (교대로 시행)"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textFontWeight="500"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/waist2" />
+
+        <TextView
+            android:layout_marginTop="-20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="양쪽 무릎을 구부려 양손으로 잡고\n가슴쪽으로 당긴다."
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/waist3" />
+
+        <TextView
+            android:layout_marginTop="-20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:text="한쪽 다리를 반대편 다리에 올려 4자 형태를\n만들어, 올린 다리의 반대편 다리 허벅지를\n잡고 가슴쪽으로 당긴다."
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/waist4" />
+
+        <TextView
+            android:layout_marginTop="-20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:text="한쪽 다리를 들어 반대편 손으로 무릎을 잡고 자연스럽게 당겨준다. (교대 실시)"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/waist5" />
+
+        <TextView
+            android:layout_marginTop="-20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:text="양쪽 무릎을 구부려 눕는다. 한쪽 다리를 들어올려 발바닥에 수건이나 밴드를 걸어 위로\n당긴다. (교대실시)"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/waist6" />
+
+        <TextView
+            android:layout_marginTop="-20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:text="엎드린 자세에서 바닥을 손으로 짚고 팔꿈치를 펴서 상체를 세운다."
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_marginTop="20dp"
+            android:id="@+id/waist_youtube1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/waist_playerBtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="재생"
+            android:textSize="50sp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

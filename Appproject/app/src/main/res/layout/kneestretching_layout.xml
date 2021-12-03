@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="무릎 스트레칭"
+            android:fontFamily="@font/nanumgothicbold"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="무릎 트위스트 스트레칭"
+            android:layout_marginLeft="30dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/nanumsquareroundb"
+            android:textColor="@color/black"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/knee1" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.누운 상태에서 양팔을 옆으로 벌리고 오른쪽\n 무릎을 90도로 구부리고 왼쪽 다리는 길게 \n 뻗는다.\n
+2.오른쪽 다리를 왼쪽 바닥으로 넘기며\n 스트레칭하고, 시선은 오른쪽 손끝을\n 바라본다. 3회 반복."
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textFontWeight="500"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="내전근 스트레칭"
+            android:layout_marginLeft="30dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/nanumgothicbold"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/knee2" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 옆으로 누워서 아래쪽 다리를 몸통과 일직선이 되게 쭉 편다.
+위쪽 다리는 무릎을 세우고 아래쪽 다리 앞에 발바닥으로 바닥을 짚어준다.
+\n2. 아래쪽 다리의 허벅지 안쪽에 힘을 주어 \n 숨을 내쉬며 올릴 수 있는 곳까지 들어 올리고\n 1초 유지합니다.
+\n3. 올린 다리를 바닥에 닿지 않을 때까지 천천히 내립니다."
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="다리 들어올리기"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/nanumgothicbold"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/knee3" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:text="1. 편한 카펫이나 운동 매트에 오른쪽으로 눕는다.
+\n2. 오른손으로 머리를 지지하고 왼손은 \n 균형을 잡는다.
+\n3. 다리를 곧게 유지하면서 천천히 위에 있는 다리를 편안하게 할 수 있는 만큼 들어올린다.
+\n4. 몇 초정도 유지하고 천천히 다리를 내린다.
+\n5. 10번 반복한다. 다리를 바꿔 반복한다."
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_marginTop="20dp"
+            android:id="@+id/knee_youtube"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/knee_playerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="재생"
+            android:textSize="50sp"
+            android:fontFamily="@font/nanumgothicextrabold"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
